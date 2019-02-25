@@ -113,14 +113,16 @@ h1, h2, p, li{
  	box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.50);
 
 }
+
 h1, h2, p, div {
     font-family: sans-serif;
 }
-user agent stylesheet
+
+
 div {
     display: block;
 }
-}
+
 
 #footer-button{
 
