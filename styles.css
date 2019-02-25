@@ -1,25 +1,28 @@
 .nav-container{
 
 	display: flex;
-	font-family: arial;
+	font-family: sans-serif;
 	text-decoration: none;
 	font-weight: bold;
-	padding: 24px 24px;
+	padding: 24px;
 	border-bottom: 1px;
 	border-color: #cccccc;
+	font-size: 32px;
 
 }
 
 .logo img{
 
-	margin-right: auto;
-	height:42px;
+	height: 64px;
 	width: auto;
 	
 }
 
 .logo{
+
 	flex:3;
+	margin-right: 24px;
+
 }
 
 a{
@@ -31,38 +34,36 @@ a{
 
 }
 
-.content-container{
+.tinted-image{
 
 	display: flex;
-	height: 100%;
-
-}
-
-.pic{
-
-	flex:2;
-	background-image: url('images/main-pic-alvin-jackson-3.jpg');
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.7)),
+ url('images/main-pic-alvin-jackson-3.jpg');
 	background-size: cover;
-	height: 100vh;
+	height: 50vh;
 	background-position: center;
 
 }
 
-.right-text{
-
-	flex:1;
-	padding-left: 84px;
-	margin-top: 180px;
-	/*justify-content: flex-start;*/
+.title{
+	display: flex;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: #ffffff;
+  	font-size: 24px;
+  	padding-bottom: 64px;
+  	font-family: sans-serif;
 
 }
 
-h1, h2, p, li{
+p, h2, li{
 
-	font-family: arial;
-	margin-right: 64px;
-	line-height: 24px;
+	font-family: sans-serif;
+	line-height: 42px;
 	list-style: none;
+	font-weight: lighter;
 }
 
 
@@ -70,21 +71,34 @@ h1, h2, p, li{
 
 	background-color: #305b90;
 	border: none;
-	padding: 15px 150px;
+	padding: 42px 150px;
+	width: 60%;
 	color:white;
 	text-decoration: none;
-	border-radius: 8px;
-	font-family: arial;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-size: 42px;
+	text-align: center;
+	font-weight: lighter;
 
 }
 .btn{
+	
+	display: flex;
+	justify-content: center;
+	margin-top: 42px;
+}
 
-	padding: 42px 0px 42px 0px;
+.main-content{
+
+	margin: 0px 24px 0px 24px;
+
 }
 
 .p-titles{
 
 	color: #8a8a8a;
+	margin-bottom: -84px;
 }
 
 .social-icons{
@@ -99,20 +113,27 @@ h1, h2, p, li{
 
 .social-icons div a img{
 
-	height: 42px;
-	margin-top: 24px;
+	height: 84px;
+	width: auto;
+	margin: 24px;
 }
 
 .footer{
 	
-	display: fixed;
+	display: flex; 
     width: 100%;
- 	font-family: arial;
- 	padding: -24px;
+ 	font-family: sans-serif;
+ 	padding: 24px;
+ 	margin-top: 24px;
  	background-color:rgb(255, 255, 2555, 0.7);
- 	box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.50);
+ 	box-shadow: 0px -4px 3px rgba(50, 50, 50, .2);
+	font-weight: lighter;
+	font-size: 42px;
+	flex-wrap: wrap;
+	justify-content: center;
 
 }
+
 
 h1, h2, p, div {
     font-family: sans-serif;
@@ -125,15 +146,28 @@ div {
 
 
 #footer-button{
-
+	display: flex;
 	background-color: #305b90;
 	border: none;
-	padding: 15px 15px;
+	padding: 24px;
 	color:white;
 	text-decoration: none;
-	border-radius: 8px;
-	font-family: arial;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: lighter;
 
+}
+
+#btn{
+
+	display: flex;
+	border: none;
+	padding: 42px 42px;
+	color:white;
+	text-decoration: none;
+	border-radius: 10px;
+	font-size: 42px;
+	text-align: center;
 
 }
 
