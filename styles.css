@@ -13,7 +13,7 @@
 
 .logo img{
 
-	height: 64px;
+	height: 72px;
 	width: auto;
 	
 }
@@ -58,12 +58,13 @@ a{
 
 }
 
-p, h2, li{
+p, h2{
 
 	font-family: sans-serif;
-	line-height: 42px;
+	line-height: 52px;
 	list-style: none;
 	font-weight: lighter;
+	font-size: 42px;
 }
 
 
