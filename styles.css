@@ -87,11 +87,11 @@ p, h2{
 
 	display: flex;
 	border: none;
-	padding: 20px;
+	padding: 16px;
 	color:white;
 	text-decoration: none;
 	border-radius: 10px;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 
 }
