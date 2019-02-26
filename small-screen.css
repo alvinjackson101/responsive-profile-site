@@ -1,16 +1,4 @@
 
-.nav-container{
-
-	display: flex;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 24px;
-	border-bottom: 1px;
-	border-color: #cccccc;
-	font-size: 16px;
-	align-items: center;
-
-}
 
 .logo img{
 
@@ -28,7 +16,7 @@
 .tinted-image{
 
 	display: flex;
-	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.7)),
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.6)),
  url('images/main-pic-alvin-jackson-3.jpg');
 	height: 45vh;
 	width: auto;
@@ -38,38 +26,40 @@
 }
 
 .title{
-	display: flex;
-	position: absolute;
-  	top: 200px;
-  	color: #ffffff;
+	display: block;
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
 
+}
+
+h1{
+
+	font-size: 24px;
+}
+
+h2{
+
+	font-size: 16px;
+	font-weight: lighter;
 }
 
 .cta-button{
 
-	background-color: #305b90;
-	border: none;
-	padding: 14px 42px;
-	width: 60%;
-	color:white;
-	text-decoration: none;
-	border-radius: 10px;
-	font-family: sans-serif;
-	font-size: 20px;
-	text-align: center;
-	font-weight: lighter;
-
+	width: 70%;
 }
+
 .btn{
 	
-	display: flex;
 	justify-content: center;
 	margin-top: 24px;
 }
 
 .main-content{
 	display: flex; 
- 	font-family: sans-serif;
  	padding: 0px 24px 0px 24px;
  	margin-top: 24px;
 	flex-wrap: wrap;
@@ -114,7 +104,6 @@
 	display: flex;
 	background-color: #305b90;
 	border: none;
-	padding: 14px;
 	color:white;
 	text-decoration: none;
 	border-radius: 10px;
