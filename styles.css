@@ -6,6 +6,7 @@ h1, h2, p, div {
 body{
 
 	margin: 0;
+	max-width: 100%;
 }
 
 .nav-container{
@@ -36,6 +37,12 @@ a{
 
 #login {
 
+	font-weight: lighter;
+}
+.p-links{
+
+	text-decoration: none;
+	color:#395B8C;
 	font-weight: lighter;
 }
 
