@@ -1,0 +1,41 @@
+.nav-container {
+    display: flex;
+    background-color: red;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+}
+
+.main-h1 {
+    background-color: green;
+}
+
+.main-content-container {
+    display: flex;
+    height: 400px;
+}
+
+.main-content-container div {
+    flex:1;
+}
+
+.main-left-bar {
+    background-color: blue;
+}
+
+.main-content {
+    background-color: lightblue;
+}
+
+.main-right-bar {
+    background-color: aqua;
+}
+
+.footer-container {
+    display:flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+}
