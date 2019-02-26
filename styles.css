@@ -1,13 +1,12 @@
 .nav-container{
 
 	display: flex;
-	font-family: sans-serif;
 	text-decoration: none;
 	font-weight: bold;
 	padding: 24px;
 	border-bottom: 1px;
 	border-color: #cccccc;
-	font-size: 32px;
+	font-size: 24px;
 
 }
 
@@ -39,16 +38,17 @@ a{
 	display: flex;
 	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.7)),
  url('images/main-pic-alvin-jackson-3.jpg');
+	height: 35vh;
+	width: auto;
+	justify-content: center;
 	background-size: cover;
-	height: 50vh;
-	background-position: center;
 
 }
 
 .title{
 	display: flex;
 	position: absolute;
-  	top: 50%;
+  	top: 600px;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	color: #ffffff;
@@ -61,7 +61,7 @@ a{
 p, h2{
 
 	font-family: sans-serif;
-	line-height: 52px;
+	line-height: 72px;
 	list-style: none;
 	font-weight: lighter;
 	font-size: 42px;
@@ -91,15 +91,15 @@ p, h2{
 }
 
 .main-content{
+	display: flex; 
+ 	font-family: sans-serif;
+ 	padding: 24px 24px 0px 24px;
+ 	margin-top: 24px;
+	font-weight: lighter;
+	font-size: 42px;
+	flex-wrap: wrap;
+	margin: 0px 24px 0px 0px;
 
-	margin: 0px 24px 0px 24px;
-
-}
-
-.p-titles{
-
-	color: #8a8a8a;
-	margin-bottom: -84px;
 }
 
 .social-icons{
@@ -123,7 +123,6 @@ p, h2{
 	
 	display: flex; 
     width: 100%;
- 	font-family: sans-serif;
  	padding: 24px;
  	margin-top: 24px;
  	background-color:rgb(255, 255, 2555, 0.7);
@@ -138,11 +137,6 @@ p, h2{
 
 h1, h2, p, div {
     font-family: sans-serif;
-}
-
-
-div {
-    display: block;
 }
 
 
@@ -163,7 +157,7 @@ div {
 
 	display: flex;
 	border: none;
-	padding: 42px 42px;
+	padding: 42px;
 	color:white;
 	text-decoration: none;
 	border-radius: 10px;

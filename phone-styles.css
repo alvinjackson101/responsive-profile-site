@@ -19,8 +19,10 @@
 
 	.pic{
 
-	position: center;
+	position: center
+	background-size: cover;
 	height: auto;
+	background-position: center;
 
 	}
 }
