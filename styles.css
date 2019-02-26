@@ -1,3 +1,8 @@
+body{
+
+	margin: 0;
+}
+
 .nav-container{
 
 	display: flex;
@@ -6,9 +11,11 @@
 	padding: 24px;
 	border-bottom: 1px;
 	border-color: #cccccc;
-	font-size: 32px;
+	font-size: 24px;
+	align-items:center;
 
 }
+
 
 .logo img{
 
@@ -33,6 +40,11 @@ a{
 
 }
 
+#login{
+
+	font-weight: lighter;
+}
+
 .tinted-image{
 
 	display: flex;
@@ -48,7 +60,7 @@ a{
 .title{
 	display: flex;
 	position: absolute;
-  	top: 600px;
+  	top: 750px;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	color: #ffffff;
@@ -125,13 +137,11 @@ p, h2{
 	
 	display: flex; 
     width: 100vw;
- 	padding: 24px;
  	bottom: 0;
  	background-color:rgb(0, 0, 0, .03);
- 	box-shadow: 0px -4px 3px rgba(50, 50, 50, .2);
+ 	box-shadow: 0px -4px 3px rgba(50, 50, 50, .1);
 	font-weight: lighter;
 	font-size: 42px;
-	flex-wrap: wrap;
 	justify-content: center;
 	position: fixed;
 
