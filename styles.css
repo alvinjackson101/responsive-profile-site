@@ -124,4 +124,115 @@ p{
 
 }
 
+/* Desktop View*/
+
+.logo img{
+
+	height: 42px;
+	width: auto;
+	
+}
+
+.logo{
+
+	flex:3;
+
+}
+
+
+.tinted-image{
+
+	display: flex;
+	flex:2;
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.6)),
+ url('images/main-pic-alvin-jackson-3.jpg');
+	height: 80vh;
+	background-size: cover;
+
+}
+
+.title{
+
+	display: flex
+	flex:1;
+	color:#000000;
+	text-align: center;
+
+}
+
+h1{
+
+	font-size: 24px;
+}
+
+h2{
+
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.cta-button{
+
+	width: 70%;
+}
+
+.btn{
+	
+	justify-content: center;
+	margin-top: 24px;
+}
+
+.main-content{
+	display: flex; 
+ 	padding: 0px 24px 0px 24px;
+ 	margin-top: 24px;
+	flex-wrap: wrap;
+	margin: 0px 24px 0px 0px;
+
+}
+
+.social-icons{
+
+	display: flex;
+}
+
+.social-icons div{
+
+	display: flex;
+	padding: 12px 0px 0px 24px;
+}
+
+.social-icons div a img{
+
+	height: 42px;
+	width: auto;
+	margin-bottom: 200px;
+}
+
+.footer{
+	
+	display: flex; 
+    width: 100vw;
+ 	bottom: 0;
+ 	background-color:rgb(0, 0, 0, .06);
+ 	box-shadow: 0px -4px 3px rgba(50, 50, 50, .1);
+	font-weight: lighter;
+	font-size: 20px;
+	justify-content: center;
+	position: fixed;
+
+}
+
+
+#footer-button{
+	display: flex;
+	background-color: #305b90;
+	border: none;
+	color:white;
+	text-decoration: none;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-weight: lighter;
+
+}
 
